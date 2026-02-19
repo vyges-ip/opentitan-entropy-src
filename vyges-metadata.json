@@ -5,6 +5,28 @@
   "source": {
     "type": "git",
     "url": "https://github.com/lowRISC/opentitan",
-    "commit": "304378684dfcf5be73bbd14faffa71790793d8c6"
-  }
+    "commit": "304378684dfcf5be73bbd14faffa71790793d8c6",
+    "rtl_path": "rtl",
+    "rtl_files": [
+      "rtl/entropy_src.sv",
+      "rtl/entropy_src_ack_sm.sv",
+      "rtl/entropy_src_ack_sm_pkg.sv",
+      "rtl/entropy_src_adaptp_ht.sv",
+      "rtl/entropy_src_bucket_ht.sv",
+      "rtl/entropy_src_cntr_reg.sv",
+      "rtl/entropy_src_core.sv",
+      "rtl/entropy_src_enable_delay.sv",
+      "rtl/entropy_src_field_en.sv",
+      "rtl/entropy_src_main_sm.sv",
+      "rtl/entropy_src_main_sm_pkg.sv",
+      "rtl/entropy_src_markov_ht.sv",
+      "rtl/entropy_src_pkg.sv",
+      "rtl/entropy_src_reg_pkg.sv",
+      "rtl/entropy_src_reg_top.sv",
+      "rtl/entropy_src_repcnt_ht.sv",
+      "rtl/entropy_src_repcnts_ht.sv",
+      "rtl/entropy_src_watermark_reg.sv"
+    ]
+  },
+  "updated": "2026-02-19T06:03:45Z"
 }
