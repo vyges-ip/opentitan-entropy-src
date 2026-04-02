@@ -14,7 +14,7 @@
     "digital"
   ],
   "created": "2026-03-27T23:10:58Z",
-  "updated": "2026-03-27T23:10:58Z",
+  "updated": "2026-04-02T03:11:53Z",
   "source": {
     "type": "git",
     "url": "https://github.com/lowRISC/opentitan",
@@ -234,5 +234,38 @@
     "schema": {
       "version": "1.0.0"
     }
-  }
+  },
+  "rtl_files": [
+    "rtl/entropy_src.sv",
+    "rtl/entropy_src_ack_sm.sv",
+    "rtl/entropy_src_ack_sm_pkg.sv",
+    "rtl/entropy_src_adaptp_ht.sv",
+    "rtl/entropy_src_bucket_ht.sv",
+    "rtl/entropy_src_cntr_reg.sv",
+    "rtl/entropy_src_core.sv",
+    "rtl/entropy_src_enable_delay.sv",
+    "rtl/entropy_src_field_en.sv",
+    "rtl/entropy_src_main_sm.sv",
+    "rtl/entropy_src_main_sm_pkg.sv",
+    "rtl/entropy_src_markov_ht.sv",
+    "rtl/entropy_src_pkg.sv",
+    "rtl/entropy_src_reg_pkg.sv",
+    "rtl/entropy_src_reg_top.sv",
+    "rtl/entropy_src_repcnt_ht.sv",
+    "rtl/entropy_src_repcnts_ht.sv",
+    "rtl/entropy_src_watermark_reg.sv"
+  ],
+  "rtl_quality": {
+    "module_prefixed": true,
+    "defines_prefixed": true,
+    "header_guards": false,
+    "one_module_per_file": true,
+    "self_contained_includes": false,
+    "no_translate_pragmas": true,
+    "lint_clean": false,
+    "no_casex": true,
+    "width_clean": false,
+    "no_sv_keyword_conflicts": true
+  },
+  "defines": []
 }
